@@ -1,0 +1,1135 @@
+This version uses the input command
+Not wait to finish the child process.
+
+wiiuse v0.12 loaded.
+  By: Michael Laforest <thepara[at]gmail{dot}com>
+  http://wiiuse.net  http://wiiuse.sf.net
+addr = 0xbed42b70 i = 0xbed42b7c
+0xc52aed3f
+[DEBUG] (id 1) SEND: (52) 11 00 
+[DEBUG] (id 1) SEND: (52) 17 00 00 00 16 00 07 
+[DEBUG] (id 1) SEND: (52) 11 00 
+[DEBUG] (id 1) SEND: (52) 12 00 30 
+Connected to 1 wiimotes (of 1 found).
+[DEBUG] (id 1) SEND: (52) 11 10 
+[DEBUG] (id 1) SEND: (52) 13 11 
+[DEBUG] (id 1) SEND: (52) 13 10 
+Read: 84 85 86 1f 9f a0 a1 
+[DEBUG] (id 1) SEND: (52) 15 00 
+[DEBUG] (id 1) SEND: (52) 12 00 30 
+
+
+--- CONTROLLER STATUS [wiimote id 1] ---
+attachment:      0
+speaker:         0
+ir:              0
+leds:            1 0 0 0
+battery:         0.715000 %
+elapsed time = 0.000641
+
+
+--- EVENT [id 1] ---
+RIGHT pressed
+elapsed time = 0.002197
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000488
+
+
+--- EVENT [id 1] ---
+RIGHT pressed
+elapsed time = 0.002289
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000183
+
+
+--- EVENT [id 1] ---
+RIGHT pressed
+elapsed time = 0.001525
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000763
+
+
+--- EVENT [id 1] ---
+DOWN pressed
+elapsed time = 0.000580
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000122
+
+
+--- EVENT [id 1] ---
+LEFT pressed
+elapsed time = 0.001770
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.001129
+
+
+--- EVENT [id 1] ---
+UP pressed
+elapsed time = 0.001984
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000855
+
+
+--- EVENT [id 1] ---
+RIGHT pressed
+elapsed time = 0.002075
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000213
+
+
+--- EVENT [id 1] ---
+DOWN pressed
+elapsed time = 0.001801
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000855
+
+
+--- EVENT [id 1] ---
+DOWN pressed
+elapsed time = 0.002380
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000886
+
+
+--- EVENT [id 1] ---
+RIGHT pressed
+elapsed time = 0.000794
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000305
+
+
+--- EVENT [id 1] ---
+RIGHT pressed
+elapsed time = 0.003235
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.001343
+
+
+--- EVENT [id 1] ---
+UP pressed
+elapsed time = 0.001801
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000580
+
+
+--- EVENT [id 1] ---
+RIGHT pressed
+elapsed time = 0.002015
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000885
+
+
+--- EVENT [id 1] ---
+A pressed
+elapsed time = 0.002564
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000275
+
+
+--- EVENT [id 1] ---
+DOWN pressed
+elapsed time = 0.005066
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000214
+
+
+--- EVENT [id 1] ---
+UP pressed
+elapsed time = 0.001586
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000519
+
+
+--- EVENT [id 1] ---
+DOWN pressed
+elapsed time = 0.001892
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000733
+
+
+--- EVENT [id 1] ---
+TWO pressed
+elapsed time = 0.002045
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000611
+
+
+--- EVENT [id 1] ---
+ONE pressed
+elapsed time = 0.002289
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000793
+
+
+--- EVENT [id 1] ---
+MINUS pressed
+[DEBUG] (id 1) SEND: (52) 12 00 30 
+elapsed time = 0.001434
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000305
+
+
+--- EVENT [id 1] ---
+TWO pressed
+elapsed time = 0.001892
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000091
+
+
+--- EVENT [id 1] ---
+HOME pressed
+elapsed time = 0.002076
+
+
+--- EVENT [id 1] ---
+elapsed time = 0.000580
+
+
+--- EVENT [id 1] ---
+[DEBUG] (id 1) SEND: (52) 12 00 31 
+wiimote roll  = 0.000000 [0.000000]
+wiimote pitch = 0.000000 [0.000000]
+wm->accel.x = 0.000000,wm->last_x = 0.000000
+elapsed time = 0.001221
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 0.296548 [4.236395]
+wiimote pitch = -0.734403 [-10.491476]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.001190
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 1.519116 [4.573921]
+wiimote pitch = -4.211318 [-17.744671]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.003143
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.997447 [4.763642]
+wiimote pitch = -10.898561 [-20.556044]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.000213
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 3.441856 [0.000000]
+wiimote pitch = -15.296358 [-22.619864]
+wm->accel.x = 132.000000,wm->last_x = 134.000000
+elapsed time = 0.000824
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 1.077755 [0.000000]
+wiimote pitch = -20.269350 [-21.801409]
+wm->accel.x = 132.000000,wm->last_x = 134.000000
+elapsed time = 0.000732
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 0.681957 [2.290610]
+wiimote pitch = -20.919743 [-19.798878]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000458
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 1.611073 [2.202598]
+wiimote pitch = -20.079336 [-17.102730]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000489
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 1.985880 [4.573921]
+wiimote pitch = -19.073500 [-17.744671]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.000397
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 3.815513 [7.125016]
+wiimote pitch = -18.274084 [-18.434948]
+wm->accel.x = 135.000000,wm->last_x = 134.000000
+elapsed time = 0.000824
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 6.481711 [6.842773]
+wiimote pitch = -18.209148 [-15.642246]
+wm->accel.x = 135.000000,wm->last_x = 134.000000
+elapsed time = 0.000518
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 6.744987 [6.842773]
+wiimote pitch = -16.187176 [-13.495733]
+wm->accel.x = 135.000000,wm->last_x = 134.000000
+elapsed time = 0.000794
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 6.773626 [6.581944]
+wiimote pitch = -14.861311 [-12.994617]
+wm->accel.x = 135.000000,wm->last_x = 134.000000
+elapsed time = 0.001160
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 6.473577 [4.236395]
+wiimote pitch = -13.505614 [-12.528808]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.001068
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -2.290610 [-2.290610]
+wiimote pitch = -13.366674 [-17.744671]
+wm->accel.x = 131.000000,wm->last_x = 134.000000
+elapsed time = 0.000947
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.290610 [2.290610]
+wiimote pitch = -16.469744 [-17.744671]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000305
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.130267 [0.000000]
+wiimote pitch = -17.186062 [-15.068486]
+wm->accel.x = 132.000000,wm->last_x = 134.000000
+elapsed time = 0.000702
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -2.121096 [-2.121096]
+wiimote pitch = -16.133116 [-14.534454]
+wm->accel.x = 131.000000,wm->last_x = 134.000000
+elapsed time = 0.000641
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -1.972620 [0.000000]
+wiimote pitch = -14.932330 [-12.528808]
+wm->accel.x = 132.000000,wm->last_x = 134.000000
+elapsed time = 0.000824
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.121096 [2.121096]
+wiimote pitch = -13.873775 [-12.528808]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000824
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.280529 [4.398705]
+wiimote pitch = -12.937366 [-10.885526]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.001801
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 3.620471 [4.236395]
+wiimote pitch = -11.743411 [-12.528808]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.001252
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 4.225892 [4.398705]
+wiimote pitch = -10.799497 [-12.994617]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.000732
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 4.229219 [2.202598]
+wiimote pitch = -12.939617 [-15.068486]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.001069
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.557709 [2.202598]
+wiimote pitch = -14.837856 [-17.102730]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000702
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.322164 [2.202598]
+wiimote pitch = -16.197746 [-15.068486]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.001221
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.374446 [4.398705]
+wiimote pitch = -15.239625 [-15.068486]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.000855
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 4.413451 [6.581944]
+wiimote pitch = -14.934990 [-12.994617]
+wm->accel.x = 135.000000,wm->last_x = 134.000000
+elapsed time = 0.000397
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 4.909160 [4.236395]
+wiimote pitch = -14.311905 [-12.528808]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.001221
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 4.245041 [4.236395]
+wiimote pitch = -12.692119 [-14.534454]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.001069
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 4.092509 [2.121096]
+wiimote pitch = -13.642797 [-14.534454]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000275
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.700902 [2.202598]
+wiimote pitch = -14.167004 [-12.994617]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000488
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.615648 [4.398705]
+wiimote pitch = -13.604739 [-12.994617]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.000519
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 4.398702 [4.398705]
+wiimote pitch = -13.139793 [-15.068486]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.000824
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 4.244975 [2.202598]
+wiimote pitch = -14.747794 [-12.994617]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.001282
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -2.121096 [-2.121096]
+wiimote pitch = -13.510985 [-12.528808]
+wm->accel.x = 131.000000,wm->last_x = 134.000000
+elapsed time = 0.000763
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.202598 [2.202598]
+wiimote pitch = -14.187781 [-17.102730]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000824
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.527410 [6.842773]
+wiimote pitch = -15.589712 [-15.642246]
+wm->accel.x = 135.000000,wm->last_x = 134.000000
+elapsed time = 0.000580
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 5.371528 [6.581944]
+wiimote pitch = -15.439224 [-12.994617]
+wm->accel.x = 135.000000,wm->last_x = 134.000000
+elapsed time = 0.000366
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 5.639771 [2.121096]
+wiimote pitch = -14.234210 [-12.528808]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.001160
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 3.145779 [2.121096]
+wiimote pitch = -13.165836 [-14.534454]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000641
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.425202 [2.202598]
+wiimote pitch = -14.173277 [-15.068486]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000519
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.375204 [4.398705]
+wiimote pitch = -14.992569 [-15.068486]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.001068
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 4.167738 [2.202598]
+wiimote pitch = -15.065588 [-15.068486]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000702
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.067309 [0.000000]
+wiimote pitch = -15.068459 [-15.068486]
+wm->accel.x = 132.000000,wm->last_x = 134.000000
+elapsed time = 0.000580
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.201757 [2.202598]
+wiimote pitch = -13.291900 [-15.068486]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000580
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.048279 [0.000000]
+wiimote pitch = -14.778977 [-15.068486]
+wm->accel.x = 132.000000,wm->last_x = 134.000000
+elapsed time = 0.000824
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 0.212668 [2.202598]
+wiimote pitch = -15.060219 [-15.068486]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000336
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.175098 [2.202598]
+wiimote pitch = -14.923201 [-12.994617]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000489
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.194590 [2.202598]
+wiimote pitch = -13.701414 [-15.068486]
+wm->accel.x = 133.000000,wm->last_x = 134.000000
+elapsed time = 0.000275
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.342268 [4.236395]
+wiimote pitch = -14.708702 [-16.504360]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.003205
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 3.010913 [4.236395]
+wiimote pitch = -15.477729 [-18.434948]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.002502
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 3.879519 [4.236395]
+wiimote pitch = -17.705938 [-20.323135]
+wm->accel.x = 134.000000,wm->last_x = 134.000000
+elapsed time = 0.000336
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 3.767126 [0.000000]
+wiimote pitch = -19.433537 [-25.709953]
+wm->accel.x = 132.000000,wm->last_x = 134.000000
+elapsed time = 0.000885
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -8.426969 [-8.426969]
+wiimote pitch = -23.536671 [-32.195732]
+wm->accel.x = 128.000000,wm->last_x = 134.000000
+elapsed time = 0.001251
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -9.982628 [-30.650667]
+wiimote pitch = -28.431580 [-42.797398]
+wm->accel.x = 116.000000,wm->last_x = 134.000000
+elapsed time = 0.000976
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -23.691721 [-30.650667]
+wiimote pitch = -37.960415 [-42.797398]
+wm->accel.x = 93.000000,wm->last_x = 134.000000
+elapsed time = 0.000580
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -28.307583 [-30.650667]
+wiimote pitch = -41.168781 [-42.797398]
+wm->accel.x = 62.000000,wm->last_x = 134.000000
+wiimote accel.x = 62.000000 last_x = 134.000000
+[DEBUG] (id 1) SEND: (52) 12 00 30 
+elapsed time = 0.002869
+
+
+--- EVENT [id 1] ---
+[DEBUG] (id 1) SEND: (52) 12 00 31 
+wiimote roll  = -28.471600 [-30.650667]
+wiimote pitch = -41.282784 [-42.797398]
+wm->accel.x = 44.000000,wm->last_x = 0.000000
+elapsed time = 0.002259
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 11.768288 [11.768288]
+wiimote pitch = -41.354279 [-26.565050]
+wm->accel.x = 137.000000,wm->last_x = 137.000000
+elapsed time = 0.000580
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 11.635114 [9.865806]
+wiimote pitch = -31.075619 [-29.475889]
+wm->accel.x = 136.000000,wm->last_x = 137.000000
+elapsed time = 0.000580
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 10.198528 [2.385944]
+wiimote pitch = -30.177824 [-28.442928]
+wm->accel.x = 133.000000,wm->last_x = 137.000000
+elapsed time = 0.000610
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -2.385944 [-2.385944]
+wiimote pitch = -29.027069 [-28.442928]
+wm->accel.x = 131.000000,wm->last_x = 137.000000
+elapsed time = 0.000641
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -2.218928 [0.000000]
+wiimote pitch = -30.007378 [-30.256435]
+wm->accel.x = 132.000000,wm->last_x = 137.000000
+elapsed time = 0.000428
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.489552 [2.489552]
+wiimote pitch = -30.117941 [-29.475889]
+wm->accel.x = 133.000000,wm->last_x = 137.000000
+elapsed time = 0.000550
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 0.076437 [0.000000]
+wiimote pitch = -29.486921 [-29.475889]
+wm->accel.x = 132.000000,wm->last_x = 137.000000
+elapsed time = 0.000610
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 0.036994 [0.000000]
+wiimote pitch = -28.969559 [-22.166344]
+wm->accel.x = 132.000000,wm->last_x = 137.000000
+elapsed time = 0.000671
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 0.198831 [2.602562]
+wiimote pitch = -25.949833 [-32.471191]
+wm->accel.x = 133.000000,wm->last_x = 137.000000
+elapsed time = 0.000488
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 1.958926 [4.969740]
+wiimote pitch = -30.195471 [-31.328691]
+wm->accel.x = 134.000000,wm->last_x = 137.000000
+elapsed time = 0.000458
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 3.331694 [2.385944]
+wiimote pitch = -30.310873 [-24.623562]
+wm->accel.x = 133.000000,wm->last_x = 137.000000
+elapsed time = 0.000305
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.661358 [2.385944]
+wiimote pitch = -26.139519 [-22.619864]
+wm->accel.x = 133.000000,wm->last_x = 137.000000
+elapsed time = 0.000885
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.638624 [4.763642]
+wiimote pitch = -23.998142 [-26.565050]
+wm->accel.x = 134.000000,wm->last_x = 137.000000
+elapsed time = 0.000305
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 3.821591 [4.969740]
+wiimote pitch = -25.478821 [-27.552811]
+wm->accel.x = 134.000000,wm->last_x = 137.000000
+elapsed time = 0.000366
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 4.601776 [2.385944]
+wiimote pitch = -27.145693 [-26.565050]
+wm->accel.x = 133.000000,wm->last_x = 137.000000
+elapsed time = 0.000153
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.249550 [0.000000]
+wiimote pitch = -26.704527 [-28.442928]
+wm->accel.x = 132.000000,wm->last_x = 137.000000
+elapsed time = 0.000397
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 0.622760 [2.385944]
+wiimote pitch = -27.959288 [-26.565050]
+wm->accel.x = 133.000000,wm->last_x = 137.000000
+elapsed time = 0.001281
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 1.814320 [4.763642]
+wiimote pitch = -27.148672 [-26.565050]
+wm->accel.x = 134.000000,wm->last_x = 137.000000
+elapsed time = 0.001129
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 4.639752 [7.125016]
+wiimote pitch = -26.622276 [-26.565050]
+wm->accel.x = 135.000000,wm->last_x = 137.000000
+elapsed time = 0.000733
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 7.180536 [9.090276]
+wiimote pitch = -26.369852 [-23.749493]
+wm->accel.x = 136.000000,wm->last_x = 137.000000
+elapsed time = 0.000732
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 8.655207 [13.495733]
+wiimote pitch = -24.633219 [-21.801409]
+wm->accel.x = 138.000000,wm->last_x = 137.000000
+elapsed time = 0.000183
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 11.859089 [11.768288]
+wiimote pitch = -22.745432 [-22.619864]
+wm->accel.x = 137.000000,wm->last_x = 137.000000
+elapsed time = 0.000733
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 13.829943 [21.801409]
+wiimote pitch = -22.441423 [-19.798878]
+wm->accel.x = 142.000000,wm->last_x = 137.000000
+elapsed time = 0.000763
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 19.045630 [33.690067]
+wiimote pitch = -20.336781 [-10.491476]
+wm->accel.x = 150.000000,wm->last_x = 137.000000
+elapsed time = 0.000274
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 29.104431 [33.690067]
+wiimote pitch = 10.491476 [10.491476]
+wm->accel.x = 165.000000,wm->last_x = 137.000000
+elapsed time = 0.000672
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 32.354671 [33.690067]
+wiimote pitch = 10.491476 [10.491476]
+wm->accel.x = 190.000000,wm->last_x = 137.000000
+wiimote accel.x = 190.000000 last_x = 137.000000
+[DEBUG] (id 1) SEND: (52) 12 00 30 
+elapsed time = 0.002564
+
+
+--- EVENT [id 1] ---
+[DEBUG] (id 1) SEND: (52) 12 00 31 
+wiimote roll  = 32.448151 [33.690067]
+wiimote pitch = 10.491476 [10.491476]
+wm->accel.x = 219.000000,wm->last_x = 0.000000
+elapsed time = 0.002258
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -19.179007 [-19.179007]
+wiimote pitch = -27.552811 [-27.552811]
+wm->accel.x = 124.000000,wm->last_x = 124.000000
+elapsed time = 0.000580
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -19.021402 [-16.927511]
+wiimote pitch = -27.552811 [-27.552811]
+wm->accel.x = 125.000000,wm->last_x = 124.000000
+elapsed time = 0.000580
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -17.690804 [-12.264773]
+wiimote pitch = -27.552811 [-27.552811]
+wm->accel.x = 127.000000,wm->last_x = 124.000000
+elapsed time = 0.000641
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -14.501100 [-14.036243]
+wiimote pitch = -27.483667 [-26.565050]
+wm->accel.x = 126.000000,wm->last_x = 124.000000
+elapsed time = 0.001190
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -15.483887 [-14.036243]
+wiimote pitch = -26.714746 [-26.565050]
+wm->accel.x = 126.000000,wm->last_x = 124.000000
+elapsed time = 0.000733
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -13.988822 [-9.462321]
+wiimote pitch = -26.724705 [-28.442928]
+wm->accel.x = 128.000000,wm->last_x = 124.000000
+elapsed time = 0.000458
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -10.616884 [-7.125016]
+wiimote pitch = -27.942560 [-28.442928]
+wm->accel.x = 129.000000,wm->last_x = 124.000000
+elapsed time = 0.000214
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -8.446366 [-6.581944]
+wiimote pitch = -27.991392 [-24.775139]
+wm->accel.x = 129.000000,wm->last_x = 124.000000
+elapsed time = 0.000214
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -7.192774 [-6.340192]
+wiimote pitch = -25.141207 [-14.534454]
+wm->accel.x = 129.000000,wm->last_x = 124.000000
+elapsed time = 0.000824
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -6.870016 [-8.426969]
+wiimote pitch = -19.581625 [-18.434948]
+wm->accel.x = 128.000000,wm->last_x = 124.000000
+elapsed time = 0.001068
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -7.995908 [-8.746161]
+wiimote pitch = -18.675619 [-17.102730]
+wm->accel.x = 128.000000,wm->last_x = 124.000000
+elapsed time = 0.000702
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -8.076944 [-4.763642]
+wiimote pitch = -18.163010 [-20.556044]
+wm->accel.x = 130.000000,wm->last_x = 124.000000
+elapsed time = 0.000367
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -5.327521 [0.000000]
+wiimote pitch = -20.052412 [-22.619864]
+wm->accel.x = 132.000000,wm->last_x = 124.000000
+elapsed time = 0.000610
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.385944 [2.385944]
+wiimote pitch = -22.086298 [-20.556044]
+wm->accel.x = 133.000000,wm->last_x = 124.000000
+elapsed time = 0.000763
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.379271 [2.290610]
+wiimote pitch = -21.383835 [-21.801409]
+wm->accel.x = 133.000000,wm->last_x = 124.000000
+elapsed time = 0.000793
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 2.151035 [0.000000]
+wiimote pitch = -21.901146 [-24.623562]
+wm->accel.x = 132.000000,wm->last_x = 124.000000
+elapsed time = 0.000488
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -2.489552 [-2.489552]
+wiimote pitch = -23.842976 [-27.552811]
+wm->accel.x = 131.000000,wm->last_x = 124.000000
+elapsed time = 0.000183
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -2.696107 [-5.440332]
+wiimote pitch = -26.153334 [-29.744879]
+wm->accel.x = 130.000000,wm->last_x = 124.000000
+elapsed time = 0.000397
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -4.769312 [-8.130102]
+wiimote pitch = -28.473328 [-27.645973]
+wm->accel.x = 129.000000,wm->last_x = 124.000000
+elapsed time = 0.000824
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -6.674379 [-7.431408]
+wiimote pitch = -27.985779 [-27.552811]
+wm->accel.x = 129.000000,wm->last_x = 124.000000
+elapsed time = 0.000397
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -7.394248 [-11.768288]
+wiimote pitch = -27.809999 [-28.442928]
+wm->accel.x = 127.000000,wm->last_x = 124.000000
+elapsed time = 0.000763
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -10.642714 [-15.255119]
+wiimote pitch = -28.394279 [-30.579229]
+wm->accel.x = 126.000000,wm->last_x = 124.000000
+elapsed time = 0.000610
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -14.194374 [-19.290045]
+wiimote pitch = -30.251841 [-34.992020]
+wm->accel.x = 125.000000,wm->last_x = 124.000000
+elapsed time = 0.000641
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -16.889267 [-20.224859]
+wiimote pitch = -32.795322 [-36.384354]
+wm->accel.x = 125.000000,wm->last_x = 124.000000
+elapsed time = 0.000793
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -19.456518 [-21.250504]
+wiimote pitch = -35.442116 [-35.837654]
+wm->accel.x = 125.000000,wm->last_x = 124.000000
+elapsed time = 0.000275
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -20.044065 [-14.743561]
+wiimote pitch = -35.422741 [-32.275646]
+wm->accel.x = 127.000000,wm->last_x = 124.000000
+elapsed time = 0.000275
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -16.912821 [-14.036243]
+wiimote pitch = -33.501175 [-30.963757]
+wm->accel.x = 127.000000,wm->last_x = 124.000000
+elapsed time = 0.000275
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -15.123402 [-16.699245]
+wiimote pitch = -31.758305 [-30.963757]
+wm->accel.x = 126.000000,wm->last_x = 124.000000
+elapsed time = 0.000732
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -16.393961 [-18.434948]
+wiimote pitch = -31.234644 [-31.759480]
+wm->accel.x = 125.000000,wm->last_x = 124.000000
+elapsed time = 0.000640
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -17.392208 [-17.650124]
+wiimote pitch = -31.555288 [-32.471191]
+wm->accel.x = 125.000000,wm->last_x = 124.000000
+elapsed time = 0.000397
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -17.732672 [-19.983107]
+wiimote pitch = -32.311493 [-34.286877]
+wm->accel.x = 124.000000,wm->last_x = 124.000000
+elapsed time = 0.000823
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -18.763441 [-19.290045]
+wiimote pitch = -33.308224 [-34.992020]
+wm->accel.x = 125.000000,wm->last_x = 124.000000
+elapsed time = 0.001220
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -18.712320 [-13.392496]
+wiimote pitch = -34.097469 [-29.744879]
+wm->accel.x = 127.000000,wm->last_x = 124.000000
+elapsed time = 0.000336
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -15.213104 [-5.194428]
+wiimote pitch = -31.179291 [-22.249025]
+wm->accel.x = 130.000000,wm->last_x = 124.000000
+elapsed time = 0.000274
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -7.545062 [-2.726311]
+wiimote pitch = -24.564758 [-23.198591]
+wm->accel.x = 131.000000,wm->last_x = 124.000000
+elapsed time = 0.000580
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -4.704406 [0.000000]
+wiimote pitch = -23.715704 [-21.801409]
+wm->accel.x = 132.000000,wm->last_x = 124.000000
+elapsed time = 0.000244
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -1.583977 [0.000000]
+wiimote pitch = -22.210302 [-18.434948]
+wm->accel.x = 132.000000,wm->last_x = 124.000000
+elapsed time = 0.000701
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 3.366461 [3.366461]
+wiimote pitch = -18.331053 [-3.366461]
+wm->accel.x = 133.000000,wm->last_x = 124.000000
+elapsed time = 0.000305
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 4.278076 [16.389540]
+wiimote pitch = -12.604705 [-6.709837]
+wm->accel.x = 137.000000,wm->last_x = 124.000000
+elapsed time = 0.000854
+
+
+--- EVENT [id 1] ---
+wiimote roll  = 13.988207 [4.763642]
+wiimote pitch = -8.596214 [-22.619864]
+wm->accel.x = 134.000000,wm->last_x = 124.000000
+elapsed time = 0.000702
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -25.709953 [-25.709953]
+wiimote pitch = -9.577869 [-22.619864]
+wm->accel.x = 119.000000,wm->last_x = 124.000000
+elapsed time = 0.000031
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -25.709953 [-25.709953]
+wiimote pitch = -18.535999 [-22.619864]
+wm->accel.x = 93.000000,wm->last_x = 124.000000
+elapsed time = 0.000336
+
+
+--- EVENT [id 1] ---
+wiimote roll  = -25.709953 [-25.709953]
+wiimote pit

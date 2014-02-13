@@ -1,0 +1,5 @@
+Install        : libbluetooth.so => libs/armeabi/libbluetooth.so
+Compile thumb  : virtual_device <= mousemode.c
+Executable     : virtual_device
+/usr/local/android-ndk-r8/toolchains/arm-linux-androideabi-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/arm-linux-androideabi/4.4.3/../../../../arm-linux-androideabi/bin/ld: warning: libcutils.so, needed by /home/naoto/Dropbox/o_naoto/Projects/Wiiuse/wiiuse5/obj/local/armeabi/libbluetooth.so, not found (try using -rpath or -rpath-link)
+Install        : virtual_device => libs/armeabi/virtual_device

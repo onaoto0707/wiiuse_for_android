@@ -1,0 +1,3 @@
+#
+base=/system
+exec dvz -classpath $base/framework/input.jar com.android.commands.input.Input $*

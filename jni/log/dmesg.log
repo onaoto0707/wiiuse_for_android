@@ -1,0 +1,513 @@
+<6>[    0.000000] Initializing cgroup subsys cpu
+<5>[    0.000000] Linux version 3.0.8-gf5f1aab-dirty (naoto@naoto-pc) (gcc version 4.4.1 (Sourcery G++ Lite 2010q1-202) ) #2 SMP PREEMPT Sat Apr 28 23:46:46 JST 2012
+<4>[    0.000000] CPU: ARMv7 Processor [412fc09a] revision 10 (ARMv7), cr=10c5387f
+<4>[    0.000000] CPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache
+<4>[    0.000000] Machine: OMAP4 Panda board
+<5>[    0.000000] Truncating RAM at 80000000-bfffffff to -afffffff (vmalloc region overlap).
+<6>[    0.000000] Reserving 16777216 bytes SDRAM for VRAM
+<4>[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+<6>[    0.000000] OMAP4460 ES1.1
+<6>[    0.000000] SRAM: Mapped pa 0x40300000 to va 0xfe400000 size: 0xd000
+<7>[    0.000000] On node 0 totalpages: 190208
+<7>[    0.000000] free_area_init_node: node 0, pgdat c07b4700, node_mem_map c0928000
+<7>[    0.000000]   Normal zone: 1536 pages used for memmap
+<7>[    0.000000]   Normal zone: 0 pages reserved
+<7>[    0.000000]   Normal zone: 188672 pages, LIFO batch:31
+<6>[    0.000000] PERCPU: Embedded 7 pages/cpu @c0f32000 s6912 r8192 d13568 u32768
+<7>[    0.000000] pcpu-alloc: s6912 r8192 d13568 u32768 alloc=8*4096
+<7>[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 188672
+<5>[    0.000000] Kernel command line: console=ttyO2,115200n8 mem=1G androidboot.console=ttyO2 androidboot.serialno=0E98000200000001 androidboot.bootloader=U-Boot_1.1.4-g92402c48-dirty
+<6>[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+<6>[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+<6>[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000] Memory: 512MB 231MB = 743MB total
+<5>[    0.000000] Memory: 744264k/744264k available, 42168k reserved, 0K highmem
+<5>[    0.000000] Virtual kernel memory layout:
+<5>[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[    0.000000]     DMA     : 0xffc00000 - 0xffe00000   (   2 MB)
+<5>[    0.000000]     vmalloc : 0xf0800000 - 0xf8000000   ( 120 MB)
+<5>[    0.000000]     lowmem  : 0xc0000000 - 0xf0000000   ( 768 MB)
+<5>[    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+<5>[    0.000000]       .init : 0xc0008000 - 0xc0046000   ( 248 kB)
+<5>[    0.000000]       .text : 0xc0046000 - 0xc0755000   (7228 kB)
+<5>[    0.000000]       .data : 0xc0756000 - 0xc07b4ee0   ( 380 kB)
+<5>[    0.000000]        .bss : 0xc07b4f04 - 0xc0927e48   (1484 kB)
+<6>[    0.000000] SLUB: Genslabs=13, HWalign=32, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+<6>[    0.000000] Preemptible hierarchical RCU implementation.
+<6>[    0.000000] NR_IRQS:410
+<4>[    0.000000] omap_hwmod: dpll_mpu_m2_ck: missing clockdomain for dpll_mpu_m2_ck.
+<6>[    0.000000] OMAP clockevent source: GPTIMER1 at 32768 Hz
+<6>[    0.000000] sched_clock: 32 bits at 32kHz, resolution 30517ns, wraps every 131071999ms
+<6>[    0.000000] Calibrating delay loop... 1194.24 BogoMIPS (lpj=4665344)
+<6>[    0.070404] pid_max: default: 32768 minimum: 301
+<6>[    0.070404] Mount-cache hash table entries: 512
+<6>[    0.070404] Initializing cgroup subsys debug
+<6>[    0.071502] Initializing cgroup subsys cpuacct
+<6>[    0.071563] Initializing cgroup subsys freezer
+<6>[    0.071624] CPU: Testing write buffer coherency: ok
+<6>[    0.071838] L310 cache controller enabled
+<6>[    0.071960] l2x0: 16 ways, CACHE_ID 0x410000c7, AUX_CTRL 0x5e470000, Cache size: 1048576 B
+<4>[    0.150360] CPU1: Booted secondary processor
+<6>[    0.181335] Brought up 2 CPUs
+<6>[    0.181365] SMP: Total of 2 processors activated (2388.48 BogoMIPS).
+<4>[    0.181610] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for emif_fw
+<4>[    0.185241] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l3_instr
+<4>[    0.185241] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l3_main_1
+<4>[    0.185272] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l3_main_2
+<4>[    0.185272] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l4_abe
+<4>[    0.185302] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l4_cfg
+<4>[    0.185302] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l4_per
+<4>[    0.185333] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for l4_wkup
+<4>[    0.185333] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for mpu_private
+<4>[    0.185394] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for sl2if
+<4>[    0.185455] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for thermal_sensor
+<4>[    0.185455] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for usbhs_ohci
+<4>[    0.185485] omap_hwmod: _populate_mpu_rt_base found no _mpu_rt_va for usbhs_ehci
+<4>[    0.185760] omap_hwmod: l3_div_ck: missing clockdomain for l3_div_ck.
+<4>[    0.185760] omap_hwmod: l4_div_ck: missing clockdomain for l4_div_ck.
+<4>[    0.194274] omap_hwmod: mcpdm: cannot be enabled (3)
+<6>[    0.196929] print_constraints: dummy: 
+<6>[    0.196929] NET: Registered protocol family 16
+<6>[    0.197418] GPMC revision 6.0
+<6>[    0.197631] EMIF0 is enabled with IRQ142
+<6>[    0.197631] EMIF1 is enabled with IRQ143
+<6>[    0.199127] Last reset was cold reset (PRM_RSTST=0x1)
+<6>[    0.199127] 
+<6>[    0.199127] HSI: device registered as omap_hwmod: hsi
+<6>[    0.199523] OMAP GPIO hardware version 0.1
+<6>[    0.202117] omap_mux_init: Add partition: #1: core, flags: 2
+<6>[    0.202117] omap_mux_init: Add partition: #2: wkup, flags: 2
+<6>[    0.203491] ram_console: got buffer at a0000000, size 200000
+<6>[    0.203491] ram_console: uncorrectable error in header
+<6>[    0.203979] ram_console: no valid data in buffer (sig = 0x678a3a80)
+<6>[    0.214050] console [ram-1] enabled
+<3>[    0.215301] omap_mux_get_by_name: Could not find signal uart1_cts.uart1_cts
+<3>[    0.215301] omap_hwmod_mux_init: Could not allocate device mux entry
+<6>[    0.227508] OMAP DMA hardware revision 0.0
+<6>[    0.236694] bio: create slab <bio-0> at 0
+<6>[    0.237213] print_constraints: vwl1271: 1800 mV 
+<5>[    0.237731] SCSI subsystem initialized
+<6>[    0.237731] usbcore: registered new interface driver usbfs
+<6>[    0.239227] usbcore: registered new interface driver hub
+<6>[    0.239562] usbcore: registered new device driver usb
+<6>[    0.240142] omap_i2c omap_i2c.1: bus 1 rev4.0 at 400 kHz
+<4>[    0.240142] Skipping twl internal clock init and using bootloader value (unknown osc rate)
+<6>[    0.241912] twl6030: PIH (irq 39) chaining IRQs 368..387
+<6>[    0.243621] print_constraints: VUSB: 3300 mV normal standby
+<6>[    0.446899] twl6030_usb twl6030_usb: Initialized TWL6030 USB module
+<6>[    0.447692] print_constraints: VMMC: 1200 <--> 3000 mV at 3000 mV normal standby
+<6>[    0.448455] print_constraints: VPP: 1800 <--> 2500 mV at 1900 mV normal standby
+<6>[    0.448455] print_constraints: VCXIO: 1800 mV normal standby
+<6>[    0.449493] print_constraints: VDAC: 1800 mV normal standby
+<6>[    0.450103] print_constraints: VAUX2_6030: 1200 <--> 2800 mV at 1800 mV normal standby
+<6>[    0.450775] print_constraints: VAUX3_6030: 1000 <--> 3000 mV at 1200 mV normal standby
+<6>[    0.451965] print_constraints: CLK32KG: 
+<6>[    0.452423] print_constraints: VANA: 2100 mV normal standby
+<6>[    0.462615] omap_i2c omap_i2c.2: bus 2 rev4.0 at 400 kHz
+<6>[    0.478240] omap_i2c omap_i2c.3: bus 3 rev4.0 at 100 kHz
+<6>[    0.493865] omap_i2c omap_i2c.4: bus 4 rev4.0 at 400 kHz
+<6>[    0.494110] omap-rproc omap-rproc.0: dsp is available
+<6>[    0.494567] omap-rproc omap-rproc.1: ipu is available
+<6>[    0.494750] Advanced Linux Sound Architecture Driver Version 1.0.24.
+<6>[    0.494750] Bluetooth: Core ver 2.16
+<6>[    0.496215] NET: Registered protocol family 31
+<6>[    0.496215] Bluetooth: HCI device and connection manager initialized
+<6>[    0.496215] Bluetooth: HCI socket layer initialized
+<6>[    0.496612] Bluetooth: L2CAP socket layer initialized
+<6>[    0.496612] Bluetooth: SCO socket layer initialized
+<6>[    0.497467] cfg80211: Calling CRDA to update world regulatory domain
+<6>[    0.497741] Switching to clocksource 32k_counter
+<6>[    0.500946] musb-hdrc: version 6.0, musb-dma, peripheral
+<6>[    0.501281] NET: Registered protocol family 2
+<6>[    0.501647] Switched to NOHz mode on CPU #1
+<6>[    0.501678] Switched to NOHz mode on CPU #0
+<6>[    0.502105] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    0.503631] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+<6>[    0.503631] TCP bind hash table entries: 65536 (order: 8, 1572864 bytes)
+<6>[    0.506927] TCP: Hash tables configured (established 131072 bind 65536)
+<6>[    0.509674] TCP reno registered
+<6>[    0.509674] UDP hash table entries: 512 (order: 3, 32768 bytes)
+<6>[    0.509674] UDP-Lite hash table entries: 512 (order: 3, 32768 bytes)
+<6>[    0.509674] NET: Registered protocol family 1
+<6>[    0.509674] Trying to unpack rootfs image as initramfs...
+<6>[    0.527343] Freeing initrd memory: 156K
+<6>[    1.625396] omap-iommu omap-iommu.0: ducati registered
+<6>[    1.625396] omap-iommu omap-iommu.1: tesla registered
+<6>[    1.634704] ashmem: initialized
+<6>[    1.641387] fuse init (API version 7.16)
+<6>[    1.643676] msgmni has been set to 1453
+<6>[    1.646240] io scheduler noop registered
+<6>[    1.646240] io scheduler deadline registered
+<6>[    1.646240] io scheduler cfq registered (default)
+<6>[    1.646820] start plist test
+<6>[    1.647888] end plist test
+<6>[    1.659301] OMAP DSS rev 4.0
+<6>[    1.667663] dsscomp: initializing.
+<7>[    1.668457] misc dsscomp: display0=generic_dpi_panel
+<7>[    1.668457] misc dsscomp: display1=hdmi_panel
+<6>[    1.668579] misc dsscomp: found 2 displays and 4 overlays
+<3>[    1.669189] could not allocate slot
+<6>[    1.669616] omap-rproc omap-rproc.1: powering up ipu
+<6>[    1.670196] virtio_rpmsg_bus virtio0: rpmsg backend virtproc probed successfully
+<6>[    1.670837] virtio_rpmsg_bus virtio1: rpmsg backend virtproc probed successfully
+<7>[    1.671386] rpmsg_virtio TX: 28 00 00 00 64 00 00 00 35 00 00 00 00 00 00 00  (...d...5.......
+<7>[    1.671813] rpmsg_virtio TX: 72 70 6d 73 67 2d 72 65 73 6d 67 72 00 00 00 00  rpmsg-resmgr....
+<7>[    1.671936] rpmsg_virtio TX: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+<7>[    1.671936] rpmsg_virtio TX: 64 00 00 00 00 00 00 00                          d.......
+<7>[    1.672332] rpmsg_virtio TX: 28 00 00 00 64 00 00 00 35 00 00 00 00 00 00 00  (...d...5.......
+<7>[    1.672332] rpmsg_virtio TX: 72 70 6d 73 67 2d 72 65 73 6d 67 72 00 00 00 00  rpmsg-resmgr....
+<7>[    1.672637] rpmsg_virtio TX: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+<7>[    1.672637] rpmsg_virtio TX: 64 00 00 00 00 00 00 00                          d.......
+<6>[    1.672637] omap_uart.0: ttyO0 at MMIO 0x4806a000 (irq = 104) is a OMAP UART0
+<6>[    1.702087] omap_uart.1: ttyO1 at MMIO 0x4806c000 (irq = 105) is a OMAP UART1
+<6>[    1.733398] omap_uart.2: ttyO2 at MMIO 0x48020000 (irq = 106) is a OMAP UART2
+<6>[    2.768341] console [ttyO2] enabled
+<6>[    2.850494] omap_uart.3: ttyO3 at MMIO 0x4806e000 (irq = 102) is a OMAP UART3
+<6>[    3.006988] PVR: PVRCore_Init
+<6>[    3.010803] PVR: PVRSRVDriverProbe(pDevice=ee4adc00)
+<6>[    3.016510] PVR: SGX register base: 0x56000000
+<6>[    3.016510] PVR: SGX register size: 65535
+<6>[    3.026092] PVR: SGX IRQ: 53
+<6>[    3.029418] PVR: EnableSystemClocks: Enabling System Clocks
+<6>[    3.035766] PVR_K:(Warning): EnableSGXClocks: Unable to scale SGX frequency (EBUSY) [167, drivers/gpu/pvr/omap4/sysutils_linux.c]
+<6>[    3.049011] PVR_K:(Warning): EnableSGXClocks: Unable to scale SGX frequency (EBUSY) [167, drivers/gpu/pvr/omap4/sysutils_linux.c]
+<6>[    3.062194] PVR: PVRCore_Init: major device 251
+<6>[    3.075469] brd: module loaded
+<6>[    3.079101] loop: module loaded
+<6>[    3.086700] (stk) :sysfs entries created
+<6>[    3.086700] (stk) : debugfs entries created 
+<6>[    3.098785] omap_temp_sensor omap_temp_sensor.0: omap_temp_sensor probed
+<6>[    3.108459] PPP generic driver version 2.4.2
+<6>[    3.108459] PPP Deflate Compression module registered
+<6>[    3.121063] PPP BSD Compression module registered
+<6>[    3.127441] PPP MPPE Compression module registered
+<6>[    3.132904] NET: Registered protocol family 24
+<6>[    3.139556] usbcore: registered new interface driver asix
+<6>[    3.140686] usbcore: registered new interface driver cdc_ether
+<6>[    3.153320] usbcore: registered new interface driver smsc95xx
+<6>[    3.159942] usbcore: registered new interface driver net1080
+<6>[    3.166320] usbcore: registered new interface driver cdc_subset
+<6>[    3.173126] usbcore: registered new interface driver zaurus
+<6>[    3.179504] cdc_ncm: 04-Aug-2011
+<6>[    3.183380] usbcore: registered new interface driver cdc_ncm
+<6>[    3.183380] usbcore: registered new interface driver zd1201
+<6>[    3.196289] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[    3.203857] ehci-omap ehci-omap.0: OMAP-EHCI Host Controller
+<6>[    3.210235] ehci-omap ehci-omap.0: new USB bus registered, assigned bus number 1
+<6>[    3.218750] ehci-omap ehci-omap.0: irq 109, io mem 0x4a064c00
+<6>[    3.233337] ehci-omap ehci-omap.0: USB 2.0 started, EHCI 1.00
+<6>[    3.239837] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[    3.247436] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[    3.255554] usb usb1: Product: OMAP-EHCI Host Controller
+<6>[    3.261474] usb usb1: Manufacturer: Linux 3.0.8-gf5f1aab-dirty ehci_hcd
+<6>[    3.268890] usb usb1: SerialNumber: ehci-omap.0
+<6>[    3.268890] hub 1-0:1.0: USB hub found
+<6>[    3.278839] hub 1-0:1.0: 3 ports detected
+<6>[    3.311431] usbcore: registered new interface driver cdc_acm
+<6>[    3.311431] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[    3.326843] Initializing USB Mass Storage driver...
+<6>[    3.332397] usbcore: registered new interface driver usb-storage
+<6>[    3.339172] USB Mass Storage support registered.
+<6>[    3.344543] usbcore: registered new interface driver usbserial
+<6>[    3.351135] usbserial: USB Serial Driver core
+<6>[    3.356048] USB Serial support registered for Keyspan - (without firmware)
+<6>[    3.363739] USB Serial support registered for Keyspan 1 port adapter
+<6>[    3.370849] USB Serial support registered for Keyspan 2 port adapter
+<6>[    3.378051] USB Serial support registered for Keyspan 4 port adapter
+<6>[    3.385345] usbcore: registered new interface driver keyspan
+<6>[    3.391723] keyspan: v1.1.5:Keyspan USB to Serial Converter Driver
+<6>[    3.398925] mousedev: PS/2 mouse device common for all mice
+<6>[    3.406005] i2c /dev entries driver
+<6>[    3.406005] lirc_dev: IR Remote Control driver registered, major 250 
+<6>[    3.417907] IR NEC protocol handler initialized
+<6>[    3.422973] IR RC5(x) protocol handler initialized
+<6>[    3.428405] IR RC6 protocol handler initialized
+<6>[    3.428405] IR JVC protocol handler initialized
+<6>[    3.438598] IR Sony protocol handler initialized
+<6>[    3.438598] IR RC5 (streamzap) protocol handler initialized
+<6>[    3.449951] IR LIRC bridge handler initialized
+<6>[    3.449951] dmm: probe base: fd300000, irq 145
+<6>[    3.463012] device-mapper: uevent: version 1.0.3
+<6>[    3.468261] device-mapper: ioctl: 4.20.0-ioctl (2011-02-02) initialised: dm-devel@redhat.com
+<6>[    3.478088] Bluetooth: HCI UART driver ver 2.2
+<6>[    3.478088] Bluetooth: HCI H4 protocol initialized
+<6>[    3.478088] Bluetooth: Bluetooth Driver for TI WiLink - Version 1.0
+<6>[    3.497009] (stc): st_register(2) 
+<6>[    3.497131] cpuidle: using governor ladder
+<6>[    3.497131] cpuidle: using governor menu
+<6>[    3.509948] (stc):  chnl_id list empty :2 
+<6>[    3.514343] (stk) : st_kim_start
+<6>[    3.521606] usbcore: registered new interface driver usbhid
+<6>[    3.528808] usbhid: USB HID core driver
+<6>[    3.533752] logger: created 256K log 'log_main'
+<6>[    3.538879] logger: created 256K log 'log_events'
+<6>[    3.544372] logger: created 256K log 'log_radio'
+<6>[    3.549530] logger: created 256K log 'log_system'
+<6>[    3.556030] OMAP HSI: HSI DRIVER Version 0.4.1
+<6>[    3.557434] omap_hsi omap_hsi.0: Registering IRQ mpu_p1 (99)
+<6>[    3.567779] omap_hsi omap_hsi.0: Registering IRQ mpu_dma (103)
+<6>[    3.574462] omap_hsi omap_hsi.0: HSI Hardware REVISION 0x50043101
+<6>[    3.585601] SDP4430 SoC init
+<6>[    3.624847] usb 1-1: new high speed USB device number 2 using ehci-omap
+<6>[    3.631317] (stk) :ldisc_install = 1
+<6>[    3.642333] asoc: null-codec-dai <-> MultiMedia1 mapping ok
+<6>[    3.650634] asoc: null-codec-dai <-> MultiMedia2 mapping ok
+<6>[    3.658325] asoc: null-codec-dai <-> Voice mapping ok
+<6>[    3.665710] asoc: null-codec-dai <-> Tones mapping ok
+<6>[    3.673278] asoc: null-codec-dai <-> Vibra mapping ok
+<6>[    3.679779] asoc: null-codec-dai <-> MODEM mapping ok
+<6>[    3.686218] asoc: null-codec-dai <-> MultiMedia1 LP mapping ok
+<6>[    3.694244] asoc: FM Digital <-> omap-mcbsp-dai.1 mapping ok
+<6>[    3.702056] asoc: twl6040-dl1 <-> mcpdm-dl mapping ok
+<4>[    3.710693] twl6040-codec twl6040-codec: ASoC: Failed to create Aux/FM Stereo In debugfs file
+<6>[    3.721069] asoc: twl6040-dl1 <-> mcpdm-dl1 mapping ok
+<6>[    3.727844] asoc: twl6040-ul <-> mcpdm-ul1 mapping ok
+<6>[    3.734710] asoc: twl6040-dl2 <-> mcpdm-dl2 mapping ok
+<6>[    3.741363] asoc: twl6040-vib <-> mcpdm-vib mapping ok
+<6>[    3.748199] asoc: Bluetooth <-> omap-mcbsp-dai.0 mapping ok
+<6>[    3.755462] asoc: Bluetooth <-> omap-mcbsp-dai.0 mapping ok
+<6>[    3.762908] asoc: FM Digital <-> omap-mcbsp-dai.1 mapping ok
+<6>[    3.770233] asoc: MODEM <-> omap-mcbsp-dai.1 mapping ok
+<4>[    3.776336] mmc0: host does not support reading read-only switch. assuming write-enable.
+<6>[    3.785278] input: Panda Headset Jack as /devices/platform/soc-audio/sound/card0/input0
+<6>[    3.796386] usb 1-1: New USB device found, idVendor=0424, idProduct=9514
+<6>[    3.806274] asoc: hdmi-audio-codec <-> hdmi-audio-dai mapping ok
+<6>[    3.813568] mmc0: new SDHC card at address e624
+<6>[    3.819061] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+<6>[    3.819183] mmcblk0: mmc0:e624 SD08G 7.40 GiB 
+<6>[    3.820495] ALSA device list:
+<6>[    3.820495]   #0: TI OMAP4 Board
+<6>[    3.820495]   #1: OMAP4HDMI
+<6>[    3.820648] GACT probability NOT on
+<6>[    3.820648] Mirror/redirect action on
+<6>[    3.820678] u32 classifier
+<6>[    3.820678]     Actions configured
+<6>[    3.820678] Netfilter messages via NETLINK v0.30.
+<6>[    3.820800] nf_conntrack version 0.5.0 (11631 buckets, 46524 max)
+<6>[    3.822052] ctnetlink v0.93: registering with nfnetlink.
+<6>[    3.822113] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+<6>[    3.822113] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+<6>[    3.822509] xt_time: kernel timezone is -0000
+<6>[    3.825134] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    3.825439] arp_tables: (C) 2002 David S. Miller
+<6>[    3.825500] TCP cubic registered
+<6>[    3.826416] NET: Registered protocol family 10
+<6>[    3.833312] Mobile IPv6
+<6>[    3.833374] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    3.833801] IPv6 over IPv4 tunneling driver
+<6>[    3.841003] NET: Registered protocol family 17
+<6>[    3.841033] NET: Registered protocol family 15
+<6>[    3.841247] Bluetooth: RFCOMM TTY layer initialized
+<6>[    3.841278] Bluetooth: RFCOMM socket layer initialized
+<6>[    3.841278] Bluetooth: RFCOMM ver 1.11
+<6>[    3.841308] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+<6>[    3.841308] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<6>[    3.841491] NET: Registered protocol family 35
+<6>[    3.842041] lib80211: common routines for IEEE802.11 drivers
+<7>[    3.842041] lib80211_crypt: registered algorithm 'NULL'
+<6>[    3.842041] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+<6>[    3.984008] hub 1-1:1.0: USB hub found
+<6>[    3.984405] hub 1-1:1.0: 5 ports detected
+<6>[    3.997497] ThumbEE CPU extension supported.
+<5>[    4.000061] Registering SWP/SWPB emulation handler
+<6>[    4.014648] Reprogramming LPDDR2 timings to 400000000 Hz
+<3>[    4.022644] Power Management for TI OMAP4.
+<6>[    4.027618] OMAP4 PM: Static dependency added between MPUSS and DUCATI <-> L4_PER/CFG and L3_1.
+<4>[    4.037750] sr_init: No PMIC hook to init smartreflex
+<6>[    4.044311] smartreflex smartreflex.0: omap_sr_probe: SmartReflex driver initialized
+<6>[    4.053039] smartreflex smartreflex.1: omap_sr_probe: SmartReflex driver initialized
+<6>[    4.053375]  mmcblk0: p1 p2 p3 p4 p5
+<6>[    4.066375] smartreflex smartreflex.2: omap_sr_probe: SmartReflex driver initialized
+<6>[    4.075408] sr_class1p5_driver_init: OMAP4460: add 10mV margin for class 1.5
+<6>[    4.083862] SmartReflex class 1.5 driver: initialized (86400000ms)
+<6>[    4.093811] clock: disabling unused clocks to save power
+<6>[    4.131896] sr_class1p5_calib_work: core: Calibration complete: Voltage Nominal=1127000 Calib=1038160
+<6>[    4.141967] sr_class1p5_calib_work: mpu: Calibration complete: Voltage Nominal=1380000 Calib=1250000
+<6>[    4.187164] sr_class1p5_calib_work: iva: Calibration complete: Voltage Nominal=1140000 Calib=1012840
+<4>[    4.201507] mmc1: card claims to support voltages below the defined range. These will be ignored.
+<6>[    4.238769] sr_class1p5_calib_work: mpu: Calibration complete: Voltage Nominal=1203000 Calib=1020000
+<4>[    4.239807] mmc1: queuing unknown CIS tuple 0x91 (3 bytes)
+<6>[    4.240814] mmc1: new SDIO card at address 0001
+<6>[    4.288055] usb 1-1.1: new high speed USB device number 3 using ehci-omap
+<4>[    4.437194] sr_class1p5_calib_work: core Stop sampling: Voltage Nominal=962000 samples=12
+<6>[    4.447143] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00
+<6>[    4.461212] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+<6>[    4.469543] sr_class1p5_calib_work: core: Calibration complete: Voltage Nominal=962000 Calib=848260
+<4>[    4.492736] sr_class1p5_calib_work: mpu Stop sampling: Voltage Nominal=1025000 samples=31
+<6>[    4.502838] smsc95xx v1.0.4
+<6>[    4.513549] sr_class1p5_calib_work: mpu: Calibration complete: Voltage Nominal=1025000 Calib=840000
+<6>[    4.609436] smsc95xx 1-1.1:1.0: eth0: register 'smsc95xx' at usb-ehci-omap.0-1.1, smsc95xx USB 2.0 Ethernet, 2e:ec:be:56:d7:13
+<6>[    4.706787] cannot apply mgr(lcd) on inactive device
+<6>[    4.712951] usb 1-1.2: new low speed USB device number 4 using ehci-omap
+<4>[    4.721130] omapfb omapfb: failed to apply dispc config
+<6>[    4.729675] cannot apply mgr(tv) on inactive device
+<4>[    4.735351] omapfb omapfb: failed to apply dispc config
+<6>[    4.743774] cannot apply mgr(lcd2) on inactive device
+<4>[    4.749542] omapfb omapfb: failed to apply dispc config
+<4>[    4.758056] omapdss DPI: Could not find exact pixel clock. Requested 74250 kHz, got 76800 kHz
+<4>[    4.769989] regulator_init_complete: VANA: incomplete constraints, leaving on
+<4>[    4.778930] regulator_init_complete: VDAC: incomplete constraints, leaving on
+<3>[    4.786834] (stk) :ldisc installation timeout
+<6>[    4.792083] (stk) :ldisc_install = 0
+<4>[    4.796752] regulator_init_complete: VCXIO: incomplete constraints, leaving on
+<3>[    4.805999] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+<6>[    4.813842] Freeing init memory: 248K
+<6>[    4.820190] sr_class1p5_calib_work: mpu: Calibration complete: Voltage Nominal=1317000 Calib=1150000
+<4>[    4.833679] init (1): /proc/1/oom_adj is deprecated, please use /proc/1/oom_score_adj instead.
+<6>[    4.872131] usb 1-1.2: New USB device found, idVendor=413c, idProduct=2003
+<6>[    4.880035] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+<6>[    4.888092] usb 1-1.2: Product: Dell USB Keyboard
+<6>[    4.893554] usb 1-1.2: Manufacturer: Dell
+<6>[    4.905853] input: Dell Dell USB Keyboard as /devices/platform/omap/usbhs_omap/ehci-omap.0/usb1/1-1/1-1.2/1-1.2:1.0/input/input1
+<6>[    4.919342] generic-usb 0003:413C:2003.0001: input: USB HID v1.10 Keyboard [Dell Dell USB Keyboard] on usb-ehci-omap.0-1.2/input0
+<6>[    5.016326] usb 1-1.3: new low speed USB device number 5 using ehci-omap
+<6>[    5.044311] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+<6>[    5.106140] wl1271: loaded
+<6>[    5.111022] wl1271: initialized
+<6>[    5.153106] usb 1-1.3: New USB device found, idVendor=093a, idProduct=2510
+<6>[    5.160980] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+<6>[    5.170806] usb 1-1.3: Product: USB OPTICAL MOUSE
+<6>[    5.171936] usb 1-1.3: Manufacturer: PIXART
+<6>[    5.194030] input: PIXART USB OPTICAL MOUSE as /devices/platform/omap/usbhs_omap/ehci-omap.0/usb1/1-1/1-1.3/1-1.3:1.0/input/input2
+<6>[    5.213256] generic-usb 0003:093A:2510.0002: input: USB HID v1.11 Mouse [PIXART USB OPTICAL MOUSE] on usb-ehci-omap.0-1.3/input0
+<4>[    5.718933] EXT4-fs (mmcblk0p4): warning: maximal mount count reached, running e2fsck is recommended
+<6>[    5.742248] EXT4-fs (mmcblk0p4): recovery complete
+<6>[    5.755157] EXT4-fs (mmcblk0p4): mounted filesystem with ordered data mode. Opts: (null)
+<4>[    5.793640] EXT4-fs (mmcblk0p3): warning: maximal mount count reached, running e2fsck is recommended
+<6>[    5.806579] EXT4-fs (mmcblk0p3): recovery complete
+<6>[    5.815490] EXT4-fs (mmcblk0p3): mounted filesystem with ordered data mode. Opts: (null)
+<3>[    5.890686] init: cannot find '/system/etc/install-recovery.sh', disabling 'flash_recovery'
+<3>[    5.902832] init: using deprecated syntax for specifying property 'ro.product.manufacturer', use ${name} instead
+<3>[    5.915832] init: using deprecated syntax for specifying property 'ro.product.model', use ${name} instead
+<3>[    5.926605] init: using deprecated syntax for specifying property 'ro.serialno', use ${name} instead
+<3>[    5.937713] omap-rproc omap-rproc.1: rproc_loader_cont: failed to load ducati-m3.bin
+<3>[    5.940795] init: using deprecated syntax for specifying property 'sys.usb.config', use ${name} instead
+<3>[    5.940795] init: using deprecated syntax for specifying property 'sys.usb.config', use ${name} instead
+<6>[    5.942565] warning: `adbd' uses 32-bit capabilities (legacy support in use)
+<3>[    5.944305] (stk) : timed out waiting for ldisc to be un-installed
+<6>[    6.045410] (stk) :ldisc_install = 1
+<6>[    6.285980] (stc): st_tty_open 
+<6>[    6.291503] (stk) :line discipline installed
+<6>[    6.297851] (stk) :TIInit_7.6.15.bts
+<6>[    6.438934] (stc): add_channel_to_table: id 2
+<6>[    6.446655] (stc): st_register(3) 
+<6>[    6.447357] (stc): add_channel_to_table: id 3
+<6>[    6.457244] (stc): st_register(4) 
+<6>[    6.461364] (stc): add_channel_to_table: id 4
+<6>[    6.513153] PVR: Installing MISR with cookie c081ded8
+<6>[    6.520782] PVR: Installing device LISR SGX ISR on IRQ 53 with cookie ee496f00
+<6>[    6.529968] PVR: OSUnMapPhysToLin: unmapping 65535 bytes from f0b20000
+<6>[    6.537750] PVR: SysFinalise: Version string: SGX revision = 1.2.0
+<6>[    8.523529] (stc): remove_channel_from_table: id 2
+<6>[    8.529144] (stc): remove_channel_from_table: id 3
+<6>[    8.536712] (stc): remove_channel_from_table: id 4
+<6>[    8.542572] (stc):  all chnl_ids unregistered 
+<6>[    8.548706] (stk) :ldisc_install = 0
+<6>[    8.554290] (stc): st_tty_close 
+<3>[    8.558837] (stc): 2 not un-registered
+<3>[    8.563903] (stc): 3 not un-registered
+<3>[    8.568664] (stc): 4 not un-registered
+<4>[    9.210571] misc dsscomp: [edf32400] ignoring set failure -22
+<6>[   17.861022] alarm_set_rtc: no RTC, time will be lost on reboot
+<6>[   24.216156] request_suspend_state: wakeup (3->0) at 24201629641 (1970-01-02 00:00:06.350067139 UTC)
+<3>[   24.441986] init: no such service 'hciattach'
+<6>[   24.442352] (stc): st_register(2) 
+<6>[   24.442352] (stc):  chnl_id list empty :2 
+<6>[   24.442352] (stk) : st_kim_start
+<6>[   24.615447] (stk) :ldisc_install = 1
+<6>[   24.680694] (stc): st_tty_open 
+<6>[   24.684539] (stk) :line discipline installed
+<6>[   24.693084] (stk) :TIInit_7.6.15.bts
+<6>[   24.798919] (stc): add_channel_to_table: id 2
+<6>[   24.807830] (stc): st_register(3) 
+<6>[   24.811553] (stc): add_channel_to_table: id 3
+<6>[   24.816833] (stc): st_register(4) 
+<6>[   24.820495] (stc): add_channel_to_table: id 4
+<6>[   25.695617] wl1271: firmware booted (Rev 6.1.3.50.58)
+<6>[   25.718811] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+<6>[   25.829406] (stc): remove_channel_from_table: id 2
+<6>[   25.842987] (stc): remove_channel_from_table: id 3
+<6>[   25.848846] (stc): remove_channel_from_table: id 4
+<6>[   25.865966] (stc):  all chnl_ids unregistered 
+<6>[   25.872100] (stk) :ldisc_install = 0
+<6>[   25.877563] (stc): st_tty_close 
+<3>[   25.881317] (stc): 2 not un-registered
+<3>[   25.885620] (stc): 3 not un-registered
+<3>[   25.889923] (stc): 4 not un-registered
+<6>[   25.970306] (stc): st_register(2) 
+<6>[   25.981262] (stc):  chnl_id list empty :2 
+<6>[   25.998992] (stk) : st_kim_start
+<6>[   26.237579] (stk) :ldisc_install = 1
+<6>[   26.298553] (stc): st_tty_open 
+<6>[   26.302703] (stk) :line discipline installed
+<6>[   26.312133] (stk) :TIInit_7.6.15.bts
+<6>[   26.561584] (stc): add_channel_to_table: id 2
+<6>[   26.566741] (stc): st_register(3) 
+<6>[   26.589630] (stc): add_channel_to_table: id 3
+<6>[   26.597564] (stc): st_register(4) 
+<6>[   26.604522] (stc): add_channel_to_table: id 4
+<7>[   27.656005] wlan0: authenticate with 00:1f:5b:89:8e:1f (try 1)
+<7>[   27.686340] wlan0: authenticated
+<7>[   27.700775] wlan0: associate with 00:1f:5b:89:8e:1f (try 1)
+<7>[   27.753845] wlan0: RX AssocResp from 00:1f:5b:89:8e:1f (capab=0x431 status=0 aid=2)
+<7>[   27.799194] wlan0: associated
+<6>[   27.837402] ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+<6>[   27.875885] wl1271: Association completed.
+<6>[   31.805511] alarm_set_rtc: no RTC, time will be lost on reboot
+<7>[   35.078887] eth0: no IPv6 routers present
+<7>[   38.530792] wlan0: no IPv6 routers present
+<3>[   94.006469] init: untracked pid 105 exited
+<4>[  110.922424] sr_class1p5_calib_work: iva Stop sampling: Voltage Nominal=950000 samples=13
+<6>[  110.932037] sr_class1p5_calib_work: iva: Calibration complete: Voltage Nominal=950000 Calib=848260
+<3>[  238.995819] init: untracked pid 675 exited
+<3>[  239.001037] init: untracked pid 686 exited
+<3>[  239.002075] init: untracked pid 698 exited
+<3>[  239.010284] init: untracked pid 709 exited
+<3>[  239.014556] init: untracked pid 720 exited
+<3>[  239.018920] init: untracked pid 732 exited
+<3>[  239.024322] init: untracked pid 744 exited
+<3>[  239.024322] init: untracked pid 757 exited
+<3>[  239.033630] init: untracked pid 768 exited
+<3>[  239.038238] init: untracked pid 780 exited
+<3>[  239.038238] init: untracked pid 792 exited
+<3>[  239.047698] init: untracked pid 804 exited
+<3>[  239.047698] init: untracked pid 815 exited
+<3>[  239.056793] init: untracked pid 826 exited
+<3>[  239.056884] init: untracked pid 838 exited
+<3>[  239.056884] init: untracked pid 849 exited
+<3>[  239.070739] init: untracked pid 861 exited
+<3>[  239.075439] init: untracked pid 872 exited
+<3>[  239.079956] init: untracked pid 880 exited
+<3>[  239.079956] init: untracked pid 883 exited
+<3>[  239.089233] init: untracked pid 892 exited
+<3>[  239.093811] init: untracked pid 903 exited
+<3>[  347.131317] init: untracked pid 935 exited
+<3>[  347.139556] init: untracked pid 947 exited
+<3>[  347.148498] init: untracked pid 958 exited
+<3>[  347.148498] init: untracked pid 969 exited
+<3>[  347.160888] init: untracked pid 981 exited
+<3>[  347.167907] init: untracked pid 992 exited
+<3>[  347.174011] init: untracked pid 1003 exited
+<3>[  347.178649] init: untracked pid 1015 exited
+<3>[  347.183441] init: untracked pid 1026 exited
+<3>[  347.188354] init: untracked pid 1034 exited
+<3>[  347.188354] init: untracked pid 1046 exited
+<3>[  347.197814] init: untracked pid 1058 exited
+<3>[  347.202453] init: untracked pid 1069 exited
+<3>[  347.208068] init: untracked pid 1081 exited
+<3>[  347.212860] init: untracked pid 1095 exited
+<3>[  347.217590] init: untracked pid 1107 exited
+<3>[  347.222259] init: untracked pid 1118 exited
+<3>[  347.227020] init: untracked pid 1129 exited
+<3>[  347.227020] init: untracked pid 1140 exited
+<3>[  347.236328] init: untracked pid 1174 exited
+<3>[  347.241088] init: untracked pid 1186 exited
+<3>[  347.245697] init: untracked pid 1197 exited
+<3>[  347.250488] init: untracked pid 1208 exited
+<3>[  347.255279] init: untracked pid 1219 exited
+<6>[ 1240.527221] binder: 620:629 refcount change on invalid ref 9
+<6>[ 1240.537811] binder: 620:629 refcount change on invalid ref 13
+<6>[ 1240.554595] binder: 620:629 refcount change on invalid ref 14
+<6>[ 1240.562316] binder: 620:629 refcount change on invalid ref 15
